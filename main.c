@@ -20,6 +20,8 @@ void start();
 void save();
 void welcomeMessage();
 void headMessage(const char *message);
+int main(){
+}
 void start()
 {
 
@@ -96,10 +98,10 @@ void welcomeMessage()
     printf("\n\t\t\t        =                 WELCOME                   =");
     printf("\n\t\t\t        =                   TO                      =");
     printf("\n\t\t\t        =                 Books                     =");
-    printf("\n\t\t\t        =               Databases                  =");
+    printf("\n\t\t\t        =               Databases                   =");
     printf("\n\t\t\t        =                 SYSTEM                    =");
     printf("\n\t\t\t        =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=");
     printf("\n\t\t\t  **-**-**-**-**-**-**-**-**-**-**-**-**-**-**-**-**-**-**\n");
-    printf("\n\n\n\t\t\t Enter any key to continue.....");
-    getchar();
+    printf("\n                          ");
+    system("pause");
 }
